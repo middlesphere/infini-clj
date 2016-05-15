@@ -6,6 +6,6 @@ This library is simple Clojure wrapper to work with remote Infinispan 8 cache.
 
 Add to your project.clj the following line:
 ```
-    :dependencies [[com.middlesphere/infini-clj "0.1.1"]]
+    :dependencies [[com.middlesphere/infini-clj "0.1"]]
 ```
 

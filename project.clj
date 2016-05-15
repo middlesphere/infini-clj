@@ -1,4 +1,4 @@
-(defproject com.middlesphere/infini-clj "0.1.1"
+(defproject com.middlesphere/infini-clj "0.1"
   :description "Clojure library to work with remote Infinispan using HotRod protocol"
   :url "https://github.com/middlesphere/infini-clj.git"
   :license {:name "Apache License 2.0"
