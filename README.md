@@ -17,6 +17,7 @@ Add to your project.clj the following line:
     (def c (connect! "127.0.0.1:11222" "default"))
 
 ```
+
 2. Add listeners:
 
 ```
@@ -25,6 +26,7 @@ Add to your project.clj the following line:
     (def lr (add-listener! c (fn [k v] (println "removed entry | key: " k " value: " v)) :entry-removed))
     (def le (add-listener! c (fn [k v] (println "expired entry | key: " k " value: " v)) :entry-expired))
 ```
+
 
 3. Put some values:
 
@@ -40,6 +42,7 @@ Add to your project.clj the following line:
 ```
     (get-value c :a)
 ```
+
 5. List all keys in cache:
 
 ```
